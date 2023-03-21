@@ -62,7 +62,9 @@ Realizamos los siguientes comandos para incluir los paquetes de quiskit:
   * Proceso realizado en shell de la instalación: ![image](https://user-images.githubusercontent.com/26396833/226746718-1d079134-c5bc-4450-adf5-0efb2c843078.png)
   * Proceso que se debe realizar en caso de fallas: ![image](https://user-images.githubusercontent.com/26396833/226747130-2e2a7e15-fa14-45ac-a3b3-17242a1b6416.png)
   * Empezamos a ejecutar las lineas de comandos: 
-  * Revisamos si funciona el código ![image](https://user-images.githubusercontent.com/26396833/226747630-58a25752-d780-40f9-a221-6956027df651.png)
+  * Revisamos si funciona el código:
+  
+  	![image](https://user-images.githubusercontent.com/26396833/226747630-58a25752-d780-40f9-a221-6956027df651.png)
   * No funciona volvemos a ejecutar el cplex: ![image](https://user-images.githubusercontent.com/26396833/226748080-32f8fd44-197a-4fc9-ab18-4bc398616fd1.png)
   * Ejecutamos cada uno de los pasos del código para ver su resultado 
   * Parte 1: 
