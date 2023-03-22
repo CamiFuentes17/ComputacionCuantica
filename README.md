@@ -99,14 +99,17 @@ Información acerca de como funciona la librería https://matplotlib.org/
 Para generar gráficos de dos dimensiones, generados a partir de datos contenidos en listas o matrices en el lenguaje de programación Python
 Si vamos a revisar la parte 3 de las imágenes, encontraremos la llamada del visualizador que nos entrega el gráfico para ver los resultados que genera el algoritmo.
 
-´´´
-    Visualize the solution
-    def visualize_solution(xc, yc, x, C, n, K, title_str):
+```
+
+    
+# Visualize the solution
+def visualize_solution(xc, yc, x, C, n, K, title_str):
     plt.figure()
     plt.scatter(xc, yc, s=200)
     for i in range(len(xc)):
-     plt.annotate(i, (xc[i] + 0.15, yc[i]), size=16, color="r")
+        plt.annotate(i, (xc[i] + 0.15, yc[i]), size=16, color="r")
     plt.plot(xc[0], yc[0], "r*", ms=20)
+
     plt.grid()
 
     for ii in range(0, n**2):
@@ -127,9 +130,9 @@ Si vamos a revisar la parte 3 de las imágenes, encontraremos la llamada del vis
     plt.show()
 
 
-	if x is not None:
-    	visualize_solution(xc, yc, x, classical_cost, n, K, "Classical")
-´´´
+if x is not None:
+    visualize_solution(xc, yc, x, classical_cost, n, K, "Classical")
+```
 
 ### Optimización
 Acerca de: https://qiskit.org/documentation/stable/0.28/apidoc/qiskit_optimization.html
