@@ -143,7 +143,8 @@ Acerca de: https://qiskit.org/documentation/stable/0.28/apidoc/qiskit_optimizati
 Acá encontraremos documentación de https://ibmdecisionoptimization.github.io/docplex-doc/
 
 
-
+Resultado 📈
+Evidenciamos el proceso, lo útil que se vuelve la computación cuántica 
 Saludos 
 
 
