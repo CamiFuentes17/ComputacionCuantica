@@ -81,16 +81,33 @@ Realizamos los siguientes comandos para incluir los paquetes de quiskit:
     ![image](https://user-images.githubusercontent.com/26396833/226748711-625d75e6-a87d-4feb-898e-c1e8ad1a6a56.png)
 
 
-
-
-
-
- 
-
 <a name="proceso"></a>
 ## Análisis proceso 🔎 
+Como hemos podido evidenciar en todo este proceso qiskit es un conjunto de algoritmos de optimización cuántica generados de manera fácil de utilizar, los cuales se encuentran listos para ejecutarse como lo revisábamos en clase, se pueden utilizar su código, ya que es abierto a través de Qiskit.
+
+Para poder realizar el ejercicio que en este caso tomamos que es en la optimización por medio de Qiskit, aclarando que la sección de optimización tiene varios proyectos en este caso realizamos el proceso para ver como funciona el enrutamiento de vehículos.[enlace](https://qiskit.org/documentation/optimization/tutorials/07_examples_vehicle_routing.html)
+
+Lo que se busca con este proceso es realizar establecer las ubicaciones de los clientes, revisar y calcular las distancias, los tiempos de viaje, calcular las rutas reales esto lo realizan basado en un algoritmo híbrido alternativo en la computadora cuántica, adicional se visualizan los resultados. 
+
+En qiskit nos realizan la explicación la aclaración mediante el modelo matemático y el modelo cuántico.
+
+Ahora bien cómo funciona el código o que es lo que realiza, al realizar la importación de las tres librerías
+
+### Matplotlib
+Información acerca de como funciona la librería https://matplotlib.org/
+
+Para generar gráficos de dos dimensiones, generados a partir de datos contenidos en listas o matrices en el lenguaje de programación Python
+
+### Optimización
+Acerca de: https://qiskit.org/documentation/stable/0.28/apidoc/qiskit_optimization.html
+
 
 <a name="cplex"></a>
+### Cplex 
+Acá encontraremos documentación de https://ibmdecisionoptimization.github.io/docplex-doc/
+
+
+
 Saludos 
 
 
