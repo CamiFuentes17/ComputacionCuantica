@@ -99,8 +99,8 @@ Información acerca de como funciona la librería https://matplotlib.org/
 Para generar gráficos de dos dimensiones, generados a partir de datos contenidos en listas o matrices en el lenguaje de programación Python
 Si vamos a revisar la parte 3 de las imágenes, encontraremos la llamada del visualizador que nos entrega el gráfico para ver los resultados que genera el algoritmo.
 ´´´
-# Visualize the solution
-def visualize_solution(xc, yc, x, C, n, K, title_str):
+	# Visualize the solution
+    def visualize_solution(xc, yc, x, C, n, K, title_str):
     plt.figure()
     plt.scatter(xc, yc, s=200)
     for i in range(len(xc)):
@@ -127,8 +127,8 @@ def visualize_solution(xc, yc, x, C, n, K, title_str):
     plt.show()
 
 
-if x is not None:
-    visualize_solution(xc, yc, x, classical_cost, n, K, "Classical")
+	if x is not None:
+    	visualize_solution(xc, yc, x, classical_cost, n, K, "Classical")
 ´´´
 
 ### Optimización
